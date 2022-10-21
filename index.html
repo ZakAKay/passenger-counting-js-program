@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- <img class="background" src="./people.jpg" alt="background"> -->
+    <div class="background-box">
+
+    
+   
+    <h1>People entered:</h1>
+    <h2 id="count-el">0</h2>
+    
+    <!-- <script>
+            document.getElementById("count-el").innerText = 5
+            //"document"-refers to the whole index.html
+            //.getElementById("count-el") - Is telling the document, want the element in my h2 tag. in this case its "count-el"
+            //.innerTex =5 is taking the h2 element "count-el" and telling the document that there are 5 instead of 0, if ran the program would return with 5.
+            //" document.getElementById("count-el").innerText = 5" - dont do it like this, make a js file. this is too amatureish 
+        </script> -->
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+     <!-- 2. Create a SAVE button.
+        Set the id to "save-btn" and call the save() function when it's clicked -->
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Previous entries: </p>
+    </div>
+        <script src="index.js"></script>
+    <!-- src - is short for source -->
+    <!-- id="increment-btn" and onclick="" are attributes -->
+    <!-- inside of the quotation marks next to onclick you will need to type the function, such as onclick="increment()" increment is defined in js-->
+    
+  </body>
+</html>
